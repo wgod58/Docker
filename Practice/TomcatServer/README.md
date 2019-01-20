@@ -12,4 +12,6 @@ FROM： 使用到的 Docker Image 名稱，今天使用 CentOS
 
 ### CMD： 在指行 docker run 的指令時會直接呼叫開啟 Tomcat Service
 
-docker build .
+需先下載 jdk-8u192-linux-x64.tar.gz 與 apache-tomcat-8.5.37.tar.gz 至此目錄
+cmd 執行 docker build .
+如有錯誤 sudo docker build .
